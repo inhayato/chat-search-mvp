@@ -1,0 +1,19 @@
+# Streamlit secrets (APIキーが含まれる)
+.streamlit/secrets.toml
+# ChromaDB データ
+chroma_db/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+# 環境変数
+.env
+.venv
+venv/
